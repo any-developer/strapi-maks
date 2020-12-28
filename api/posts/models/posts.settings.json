@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "name": "posts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "postTitle_ru": {
+      "type": "string"
+    },
+    "postTitle_en": {
+      "type": "string"
+    },
+    "postDescription_ru": {
+      "type": "richtext"
+    },
+    "postDescription_en": {
+      "type": "richtext"
+    },
+    "postImage_ru": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "postImage_en": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

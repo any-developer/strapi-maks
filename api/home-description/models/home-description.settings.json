@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_descriptions",
+  "info": {
+    "name": "HomeDescription"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "homeTitle_ru": {
+      "type": "string"
+    },
+    "homeTitle_en": {
+      "type": "string"
+    },
+    "homeDescription_ru": {
+      "type": "richtext"
+    },
+    "homeDescription_en": {
+      "type": "richtext"
+    },
+    "homeColLeft_ru": {
+      "type": "richtext"
+    },
+    "homeColLeft_en": {
+      "type": "richtext"
+    },
+    "homeColCenter_ru": {
+      "type": "richtext"
+    },
+    "homeColCenter_en": {
+      "type": "richtext"
+    },
+    "homeColRight_ru": {
+      "type": "richtext"
+    },
+    "homeColRight_en": {
+      "type": "richtext"
+    }
+  }
+}

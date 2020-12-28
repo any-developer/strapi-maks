@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "aboutDescriptionHeader_ru": {
+      "type": "richtext"
+    },
+    "aboutDescriptionHeader_en": {
+      "type": "richtext"
+    },
+    "aboutLeftOne_ru": {
+      "type": "richtext"
+    },
+    "aboutLeftOne_en": {
+      "type": "richtext"
+    },
+    "aboutRightOne_ru": {
+      "type": "richtext"
+    },
+    "aboutRightOne_en": {
+      "type": "richtext"
+    },
+    "aboutLeftTwo_ru": {
+      "type": "richtext"
+    },
+    "aboutLeftTwo_en": {
+      "type": "richtext"
+    },
+    "aboutRightTwo_ru": {
+      "type": "richtext"
+    },
+    "aboutRightTwo_en": {
+      "type": "richtext"
+    },
+    "aboutDescriptionBottom_ru": {
+      "type": "richtext"
+    },
+    "aboutDescriptionBottom_en": {
+      "type": "richtext"
+    }
+  }
+}

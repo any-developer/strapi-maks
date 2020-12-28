@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "products"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "productTitle_ru": {
+      "type": "string"
+    },
+    "productTitle_en": {
+      "type": "string"
+    },
+    "productDescription_ru": {
+      "type": "richtext"
+    },
+    "productDescription_en": {
+      "type": "richtext"
+    },
+    "productDescriptionListOne_ru": {
+      "type": "richtext"
+    },
+    "productDescriptionListOne_en": {
+      "type": "richtext"
+    },
+    "productsDescriptionListTwo_ru": {
+      "type": "richtext"
+    },
+    "productsDescriptionListTwo_en": {
+      "type": "richtext"
+    },
+    "productMainFunctions_ru": {
+      "type": "richtext"
+    },
+    "productMainFunctions_en": {
+      "type": "richtext"
+    },
+    "productUse_ru": {
+      "type": "richtext"
+    },
+    "productUse_en": {
+      "type": "richtext"
+    },
+    "documentation_ru": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "documentation_en": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "productImage_ru": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "productImage_en": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

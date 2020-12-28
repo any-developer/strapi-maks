@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personals",
+  "info": {
+    "name": "personals",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "presolal": {
+      "type": "string"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

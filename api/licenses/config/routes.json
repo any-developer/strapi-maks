@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/licenses",
+      "handler": "licenses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/licenses",
+      "handler": "licenses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/licenses",
+      "handler": "licenses.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
